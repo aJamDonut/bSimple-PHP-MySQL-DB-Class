@@ -1,4 +1,12 @@
 <?php
+/**
+* Database class for MySQL
+* Provides security and quick functionality to your project
+* @Copyright Adam Dougherty <adamiandougherty@gmail.com>
+* @License https://github.com/aJamDonut/bSimple-PHP-MySQL-DB-Class/wiki/Donut-License
+* @Website ajamdonut.com
+* @Repo https://github.com/aJamDonut/bSimple-PHP-MySQL-DB-Class
+*/
 
 class Database {
 
