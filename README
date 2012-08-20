@@ -1,1 +1,11 @@
-hi
+PHP Database class for MySQL
+
+This database is created and maintined for use in my personal and professional projects.
+
+It provides a security layer on top of MySQL by forcing the programmer to declare data typed during the insert and select queries, which are then checked and fail if they look fishy.
+
+The license provided in code must be kept as is. The rest is up for modification. If you do modify, please use github and request a pull so we can all benefit.
+
+For help and info:
+
+https://github.com/aJamDonut/bSimple-PHP-MySQL-DB-Class/wiki
