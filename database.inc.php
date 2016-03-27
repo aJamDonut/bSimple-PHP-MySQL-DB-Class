@@ -26,11 +26,11 @@ class Database {
 	
 	private $queries = array();
 
-	function __construct($user='root', $pass='', $type="normal", $database_name=false) {
+	function __construct($user='root', $pass='', $type="normal", $host = 'localhost', $port = '3306', $database_name=false) {
 		if ($type=="normal") {
-			$this->server = mysql_connect('localhost', $user, $pass);
+			$this->server = mysql_connect($host.":".$port, $user, $pass);
 		} else {
-			$this->server = mysql_pconnect('localhost', $user, $pass);
+			$this->server = mysql_pconnect($host.":".$port, $user, $pass);
 		}
 		if (!$this->server) {
 			die('Could not connect: ' . mysql_error());
